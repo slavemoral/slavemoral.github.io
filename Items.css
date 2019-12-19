@@ -1,0 +1,64 @@
+
+h1{
+  background-color:rgb(255,255,255);
+  margin-left;
+  font-size: 300%;
+}
+
+body {
+    background-color:rgb(0,255,255);
+}
+
+p{
+  background-color:rgb(255,255,255);
+  text-align:center;
+}
+
+img{
+  width: 100%;
+}
+
+.StorDiv{
+  padding: 2%;
+background-color: rgb(255,255,255);
+   overflow: auto;
+
+}
+
+.FloatingLeft{
+  float: left;
+  padding: 10px;
+  background-color:rgb(0,255,255);
+  width: 50%;
+}
+
+.FloatingRight{
+  float:right;
+  padding: 10px;
+  background-color:rgb(0,255,255);
+  width:40%;
+}
+
+@media (max-width: 2000px) {
+  .FloatingRight {
+    width: 500px;
+  }
+
+}
+
+.Galleri{
+  padding:10px;
+    background-color: rgb(0,0,255);
+}
+.FloatingLeftsmall{
+  float: left;
+  padding: 10px;
+
+  width: 45%;
+  margin-top: auto;
+}
+.Menu{
+  background-color: rgb(0,0,255);
+  font-size: 200%;
+
+}
